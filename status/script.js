@@ -43,7 +43,7 @@ function disableDarkMode() {
 }
 
 function redirectToMainSite() {
-  window.location.href = "https://nino-os.deboticz.online/";
+  window.location.href = "https://nino-os.astro-hosting.net/";
 }
 
 window.onload = function () {
@@ -139,7 +139,7 @@ document.addEventListener("keydown", function (event) {
 });
 
 document.addEventListener("DOMContentLoaded", function () {
-  const url = `https://dash.deboticz.online/`;
+  const url = `https://dash.astro-hosting.net/`;
   const resultDiv = document.getElementById("status-txt1");
 
   async function checkStatus() {
@@ -181,7 +181,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 document.addEventListener("DOMContentLoaded", function () {
-  const url = `https://panel.deboticz.online/`;
+  const url = `https://panel.astro-hosting.net/`;
   const resultDiv = document.getElementById("status-txt2");
 
   async function checkStatus() {
